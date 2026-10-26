@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxes</title>
+    <style>
+      body {
+        background-color: rgb(48, 42, 42);
+        color: rgb(0, 0, 0);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+      h1 {
+        color: rgb(24, 21, 21);
+      }
+      nav {
+        padding: 3px;
+        background-color: gray;
+        box-shadow: 0px 2px 4px 0px;
+      }
+      nav > a {
+        text-decoration: none;
+        font-weight: bold;
+        color: lightgray;
+        margin-right: 8px;
+        background-color: gray;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+        color: black;
+      }
+      header {
+        background-color: lightgray;
+        margin: 10px;
+        padding: 10px;
+        color: black;
+      }
+      main {
+        background-color: lightgray;
+        margin: 10px 10px 0px;
+      }
+      section {
+        background-color: transparent;
+      }
+      article > p {
+        margin: 15px;
+      }
+      article > h2 {
+        margin: 8px;
+      }
+      article {
+        background-color: lightgray;
+        border-bottom: 10px solid rgb(48, 42, 42);
+        padding: 10px;
+      }
+      footer {
+        background-color: lightgray;
+        padding: 4px;
+        margin: 0px 10px 10px 10px;
+        text-align: center;
+      }
+      header > h1 {
+        text-align: center;
+      }
+      footer > p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="cabelhaco">
+      <h1>Meu Site</h1>
+      <nav id="menu">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main id="principal">
+      <section id="Noticias">
+        <article>
+          <h2>Notícias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat blanditiis rerum
+            placeat deserunt reiciendis delectus tenetur dolorum tempora esse quidem, non
+            consequuntur sint adipisci praesentium itaque obcaecati quia porro cumque. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Adipisci eum temporibus, excepturi fugiat
+            molestiae architecto omnis tempora autem quo nemo nam explicabo dolor eligendi suscipit
+            maxime quam animi debitis dignissimos. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Velit voluptas, ipsum enim eos facere repellendus facilis ut iste
+            totam quidem ipsa dolore architecto sapiente laudantium veritatis ducimus aspernatur sed
+            eveniet!
+          </p>
+          <aside>Artigo escrito por Lorem</aside>
+        </article>
+        <article>
+          <h2>Notícia sobre esporte</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore cumque ratione
+            dolore laudantium voluptatem quisquam molestiae debitis odio dolorum animi et hic
+            repellat accusantium fugit recusandae possimus necessitatibus, adipisci quibusdam! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis ullam harum alias
+            exercitationem deserunt aliquid consectetur, reprehenderit esse modi perferendis non
+            aperiam sit porro veniam eum magnam, dolor id!
+          </p>
+          <aside>Artigo escrito por pipipopo</aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Site feito por mim mesmo né ta ligado</p>
+    </footer>
+  </body>
+</html>
